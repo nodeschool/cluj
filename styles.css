@@ -156,7 +156,7 @@ section:nth-child(odd) {
     flex: 1;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
     .header {
         width: 80%;
     }
@@ -178,5 +178,9 @@ section:nth-child(odd) {
     }
     .footer {
         margin: 10px 0;
+    }
+
+    .logo {
+        max-width: 60%;
     }
 }
