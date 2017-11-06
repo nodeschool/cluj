@@ -87,9 +87,9 @@ section:nth-child(odd) {
 
 .section-content h1 {
     font-size: 35px;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px 1px #616161;
-    padding: 10px 0;
+    letter-spacing: 0.2px;
+    text-shadow: 1px 1px rgba(0,0,0,0.24);
+    padding: 10px 0 8px;
 }
 
 .section-content a {
@@ -122,8 +122,8 @@ section:nth-child(odd) {
     }
 
     .section-content h1 {
-        font-size: 1.3em;
-        padding: 0.3em 0;
+        font-size: 1.5em;
+        padding: 0.1em 0;
     }
 
     .section-content span {
