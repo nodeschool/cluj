@@ -183,4 +183,8 @@ section:nth-child(odd) {
     .logo {
         max-width: 60%;
     }
+
+    .content {
+        margin-top: 20px;
+    }
 }
