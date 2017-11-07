@@ -8,6 +8,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body,
+html {
+    overflow-x:hidden;
+}
+
 a {
     color: #000;
 }
