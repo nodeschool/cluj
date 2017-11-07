@@ -22,12 +22,12 @@ a:hover {
 }
 
 .header a.register-button {
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: 700;
     letter-spacing: 0.1px;
     font-size: 20px;
     text-decoration: none;
-    padding: 12px;
+    padding: 12px 70px;
     border: 2.2px solid #0097A7;
     border-radius: 5px;
 }
@@ -201,7 +201,7 @@ section:nth-child(odd) a:hover {
 
     .header a.register-button {
         font-size: 15px;
-        padding: 10px 7px;
+        padding: 10px 25px;
     }
 
     .footer {
