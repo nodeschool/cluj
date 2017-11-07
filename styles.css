@@ -83,7 +83,7 @@ section:nth-child(odd) {
 
 .section-content p {
     line-height: 34px;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 20px;
 }
 
@@ -109,10 +109,16 @@ section:nth-child(odd) {
     color: #000;
 }
 
+section:nth-child(odd) a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
 .section-content a:hover {
     color: #0097A7;
     border-bottom: 1px solid #0097A7;
 }
+
 
 .footer {
     margin: 100px 0 0;
