@@ -145,6 +145,24 @@ section:nth-child(odd) a:hover {
     flex: 1;
 }
 
+.content iframe {
+    margin: 0 auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 @media only screen and (max-width: 900px) {
     .section-content {
         width: 80%;
@@ -193,5 +211,9 @@ section:nth-child(odd) a:hover {
 
     .content {
         margin-top: 20px;
+    }
+
+    .map-responsive {
+        padding-bottom:45%;
     }
 }
