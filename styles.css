@@ -188,7 +188,7 @@ section:nth-child(odd) a:hover {
 
     .section-content h1 {
         font-size: 1.5em;
-        padding: 0.1em 0;
+        padding: 0.1em 0 0.3em;
     }
 
     .section-content span {
@@ -201,7 +201,7 @@ section:nth-child(odd) a:hover {
 
     .header a.register-button {
         font-size: 15px;
-        padding: 10px 25px;
+        padding: 10px 30px;
     }
 
     .footer {
