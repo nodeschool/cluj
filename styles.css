@@ -21,8 +21,20 @@ a:hover {
     color: #0097A7;
 }
 
-.header a {
-    font-weight: bold;
+.header a.register-button {
+    margin: 10px 0;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: 2px solid #0097A7;
+    border-radius: 5px;
+}
+
+a.register-button:hover {
+    background-color: #0097A7;
+    color: #fff;
 }
 
 .header {
@@ -63,7 +75,7 @@ a:hover {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    margin: 70px 0 0;
+    margin: 60px 0 0;
 }
 
 section {
@@ -185,6 +197,11 @@ section:nth-child(odd) a:hover {
 
     .header {
         width: 80%;
+    }
+
+    .header a.register-button {
+        font-size: 15px;
+        padding: 8px;
     }
 
     .footer {
