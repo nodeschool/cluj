@@ -27,9 +27,10 @@ a:hover {
     letter-spacing: 0.1px;
     font-size: 20px;
     text-decoration: none;
-    padding: 12px 70px;
+    padding: 12px 60px;
     border: 2.2px solid #0097A7;
     border-radius: 5px;
+    text-transform: uppercase;
 }
 
 a.register-button:hover {
@@ -60,6 +61,19 @@ a.register-button:hover {
 
 .header > .logo {
     margin: 20px 0;
+}
+
+.header h2 {
+    line-height: 35px;
+}
+
+.header span.free-label {
+    color: #fff;
+    background-color: #0097A7;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    border-radius: 5px;
 }
 
 .header > .register {
@@ -200,8 +214,8 @@ section:nth-child(odd) a:hover {
     }
 
     .header a.register-button {
-        font-size: 15px;
-        padding: 10px 30px;
+        font-size: 13px;
+        padding: 10px 25px;
     }
 
     .footer {
@@ -211,10 +225,26 @@ section:nth-child(odd) a:hover {
 
     .header > .title {
         font-size: 2em;
+        margin: 40px 0 5px;
     }
 
     .header > .subtitle {
+        position: relative;
         font-size: 1.2em;
+        line-height: 25px;
+        margin: 10px;
+        padding: 10px 0;
+    }
+
+    .header span.free-label {
+        font-size: 16px;
+        position: absolute;
+        width: 70px;
+        bottom: -35px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        padding: 6px 3px;
     }
 
     .header > .register {
@@ -222,8 +252,9 @@ section:nth-child(odd) a:hover {
         line-height: 23px;
     }
 
-    .logo {
+    .header > .logo {
         max-width: 60%;
+        margin: 40px 0 0;
     }
 
     .content {
