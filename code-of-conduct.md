@@ -25,10 +25,6 @@ warning the offender or expulsion from the community. If you are being
 harassed, notice that someone else is being harassed, or have any concerns,
 please contact an organizer immediately.
 
-### **Nodeschool Cluj**
-
-* Organizers: **[alexnm](https://twitter.com/alexnmoldovan)**
-
 **If you have questions or feedback about this Code of Conduct please contact
 one of the organizers.**
 
