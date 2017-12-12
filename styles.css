@@ -206,12 +206,22 @@ section:nth-child(odd) a:hover {
 }
 
 .gallery-preview {
-    width: 270px;
+    padding: 0 5px;
+    width: 250px;
     border:1px solid transparent;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.gallery-preview-items{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .gallery-preview:hover {
     border:none;
+    opacity: 1;
 }
 
 section a.photo-link:hover {
@@ -300,6 +310,6 @@ section a.photo-link:hover {
         padding-bottom: 60%;
     }
     .gallery-photos {
-        max-width: 80%;
+        max-width: 50%;
     }
 }
