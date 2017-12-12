@@ -197,6 +197,7 @@ section:nth-child(odd) a:hover {
     width: 1000px;
     display: block;
     margin:20px 0;
+    max-width: 100%;
 }
 
 .gallery-content {
@@ -308,8 +309,5 @@ section a.photo-link:hover {
 
     .map-responsive {
         padding-bottom: 60%;
-    }
-    .gallery-photos {
-        max-width: 50%;
     }
 }
