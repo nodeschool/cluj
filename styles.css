@@ -193,6 +193,37 @@ section:nth-child(odd) a:hover {
     position: absolute;
 }
 
+.gallery-photos {
+    width: 1000px;
+    display: block;
+    margin:20px 0;
+}
+
+.gallery-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-preview {
+    width: 270px;
+    border:1px solid transparent;
+}
+
+.gallery-preview:hover {
+    border:none;
+}
+
+section a.photo-link:hover {
+    border:none;
+}
+
+.gallery-preview-content a{
+    border:none;
+}
+
+
+
 @media only screen and (max-width: 900px) {
     .section-content {
         width: 80%;
@@ -267,5 +298,8 @@ section:nth-child(odd) a:hover {
 
     .map-responsive {
         padding-bottom: 60%;
+    }
+    .gallery-photos {
+        max-width: 80%;
     }
 }
